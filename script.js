@@ -1,3 +1,5 @@
+// No código atual, a Programação Orientada a Objetos (POO) é aplicada de forma mais  organizada em comparação ao código original. As propriedades, como score e hasKey, são encapsuladas dentro das classes, evitando variáveis globais e mantendo o estado do jogo mais estruturado. Métodos como spawnKey, collectKey e moveEnemyRandomly tornam o código modular e mais fácil de entender. Além disso, todas as cenas herdam da classe Phaser.Scene, aproveitando os métodos e propriedades da biblioteca Phaser, o que demonstra o uso de herança. O jogo atual centraliza o carregamento de recursos na MenuScene, evitando duplicação. No geral, o código atual apresenta uma abordagem mais avançada de POO, com melhor organização, reutilização e abstração, além de aprimorar a experiência do jogo.
+
 class MenuScene extends Phaser.Scene {
     constructor() {
         super("MenuScene");
